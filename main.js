@@ -20,7 +20,8 @@ var alien17 = new Sprite("image/alien2.png", 1600, 150);
 var laser = new Sprite("image/laser.png", 500, 500);
 laser.display = "none";
 
-var vaisseau = new Sprite("image/vaisseau2.png", document.getElementById("spaceInvaders").clientWidth / 2, document.getElementById("spaceInvaders").clientHeight / 1.1);
+var vaisseau = new Sprite("image/vaisseau2.png", document.getElementById("spaceInvaders").clientWidth / 2,
+    document.getElementById("spaceInvaders").clientHeight / 1.1);
 
 document.onkeydown = function (event) {
     console.log(event.keyCode);
